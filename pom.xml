@@ -18,4 +18,5 @@
         <maven.compiler.target>22</maven.compiler.target>
         
     </properties>
+    <name>CPUScheduling_GUI</name>
 </project>
