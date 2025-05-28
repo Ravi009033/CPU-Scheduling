@@ -5,14 +5,14 @@
 # Overview:
  This Java-based simulation tool models and compares various CPU scheduling algorithms. It provides a visual and data-driven way to understand the internal workings and performance implications of different scheduling strategies used in operating systems.
 
-# Implemented Algorithms:
+# 🧠Implemented Algorithms:
 - First-Come First-Served (FCFS) 
 - Shortest Job First (SJF) 
 - Priority Scheduling
 - Round Robin (RR)
 - Multilevel Queue Scheduling 
 
-# Key Features:
+# 🧠Key Features:
 
 - Performance Metrics Calculation:
   Automatically computes and displays key performance indicators for each algorithm:
@@ -22,21 +22,21 @@
 - Algorithm Comparisons:  Enables users to run simulations with various input parameters and compare the effectiveness of different algorithms under varying loads and priorities.                 
 - Extensible Design: Modular architecture allows easy integration of new algorithms or enhancements to existing ones.
 
-# Project Structure
+# 📁Project Structure
 
 - MainPage.java – Entry point; handles user interface and navigation.
 - Job.java – Represents a process with attributes like arrival time, burst time, and priority.
 - SchedulingAlgorithms/ – Package containing individual classes for each scheduling algorithm.
 - ResultPage.java – Displays scheduling outcomes and visualizes performance metrics.
 
-# Learning Outcome / Objective:
+# 📊Learning Outcome / Objective:
 This project enhanced understanding of CPU scheduling principles and algorithm design, while reinforcing skills in:
 - Java OOP and GUI programming
 - Modular software architecture
 - Performance analysis and simulation techniques
 
 
-# Sample output
+# 🧪Sample output
 
 
 MainPage 
