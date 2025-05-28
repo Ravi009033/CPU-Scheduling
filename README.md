@@ -1,29 +1,42 @@
-CPU Scheduling Algorithms Simulation
+# Project: CPU Scheduling Algorithms Simulation
+- Language/Platform: Java
+- Project Type: Desktop Application (Educational/ Simulation)
 
-Overview
+# Overview:
+ This Java-based simulation tool models and compares various CPU scheduling algorithms. It provides a visual and data-driven way to understand the internal workings and performance implications of different scheduling strategies used in operating systems.
 
-This Java project simulates various CPU scheduling algorithms, providing a platform to analyze and compare their performance. The implemented algorithms include:
+# Implemented Algorithms:
+- First-Come First-Served (FCFS) 
+- Shortest Job First (SJF) 
+- Priority Scheduling
+- Round Robin (RR)
+- Multilevel Queue Scheduling 
 
-First-ComeFirst-Served (FCFS), 
-Shortest Job First (SJF), 
-Priority Scheduling, 
-Round Robin (RR), 
-Multilevel Queue Scheduling 
+# Key Features:
 
-Features
+- Performance Metrics Calculation:
+  Automatically computes and displays key performance indicators for each algorithm:
+  - Average Waiting Time
+  - Turnaround Time
+  - CPU Utilization
+- Algorithm Comparisons:  Enables users to run simulations with various input parameters and compare the effectiveness of different algorithms under varying loads and priorities.                 
+- Extensible Design: Modular architecture allows easy integration of new algorithms or enhancements to existing ones.
 
-Performance Metrics:  Calculates and displays metrics such as waiting time, turnaround time, and CPU utilization for each scheduling algorithm.
-Algorithm Comparisons:  Allows users to compare the efficiency of different scheduling policies under various scenarios.                 
-Extensible Design: The project is structured to easily add new scheduling algorithms or modify existing ones.
+# Project Structure
 
-Project Structure
+- MainPage.java – Entry point; handles user interface and navigation.
+- Job.java – Represents a process with attributes like arrival time, burst time, and priority.
+- SchedulingAlgorithms/ – Package containing individual classes for each scheduling algorithm.
+- ResultPage.java – Displays scheduling outcomes and visualizes performance metrics.
 
-MainPage.java: Entry point of the application.                  
-Job.java: Class representing a process with attributes like arrival time, burst time, and priority.               
-SchedulingAlgorithms/: Contains different classes for each scheduling algorithm.             
-ResultPage.java : Class display the processes of Cpu Scheduling and display the waiting time, turnaround time
+# Learning Outcome / Objective:
+This project enhanced understanding of CPU scheduling principles and algorithm design, while reinforcing skills in:
+- Java OOP and GUI programming
+- Modular software architecture
+- Performance analysis and simulation techniques
 
-Sample output
+
+# Sample output
 
 
 MainPage 
